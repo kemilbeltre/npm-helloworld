@@ -1,13 +1,13 @@
 const axios = require('axios')
 
-const greet = name => 'Hello' + name;
+const hello = name => 'Hello' + name
 
 const users = async () => {
-    const res = await axios.get('https://jsonplaceholder.typicode.com/users?_limit=2')
+    const res = await axios.get('https://jsonplaceholder.typicode.com/users?_limit=10')
     return res.data
 }
 
 module.exports = {
-    greet,
+    hello,
     users
 }

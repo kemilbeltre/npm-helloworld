@@ -1,13 +1,13 @@
 {
-  "name": "npm-helloworld",
+  "name": "npm-helloworld-kbl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My first dummy module",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kemil Beltre",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
