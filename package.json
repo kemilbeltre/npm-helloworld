@@ -1,6 +1,6 @@
 {
   "name": "npm-helloworld-kbl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My first dummy module",
   "main": "src/index.js",
   "scripts": {
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemilbeltre/npm-helloworld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kemilbeltre/npm-helloworld/issues"
+  },
+  "homepage": "https://github.com/kemilbeltre/npm-helloworld#readme"
 }
